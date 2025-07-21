@@ -13,3 +13,6 @@ export function adicionaNaLista(item){
     lista.push(item.trim());
 }
 
+export function removeDaLista(indice){
+    lista.splice(indice, 1);
+}
